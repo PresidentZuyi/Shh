@@ -1,0 +1,20 @@
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Script loaded enjoy!",
+    Text = "Made By PresidentZuyi",
+    Button1 = "W Zuyi!",
+    Button2 = "W Zuyi!",
+    Duration = 90
+})
+
+local player = game:GetService("Players").LocalPlayer
+local st = player.PlayerGui.Style.BG.StyleTxt
+local Slot = player.PlayerGui.Style.BG.Slots.ScrollingFrame.Slot1.Text
+local des = player.PlayerGui.Style.BG.Desc
+
+while wait() do
+    st.Text = "Ikki Niko"
+    st.TextColor3 = Color3.fromRGB(255, 255, 5)
+    Slot.Text = "Ikki Niko"
+    Slot.TextColor3 = Color3.fromRGB(255, 255, 5)
+    des.Text = "A young defender that plays in the team “Ubers” and is designated to be one of the best in his era"
+end
